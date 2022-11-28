@@ -1,4 +1,6 @@
 class StoreAPIs {
+  constructor() {}
+
   getStore = async () => {
     console.log("getStore");
   };

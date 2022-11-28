@@ -1,11 +1,7 @@
-import { useServiceContext } from "src/app/common/providers/ServiceProvider";
+import KakaoMapProvider from "src/app/common/providers/KakaoMapProvider";
 
 function HomeContainer() {
-  const { storeService } = useServiceContext();
-
-  storeService.getStore();
-
-  return <div>홈</div>;
+  return <KakaoMapProvider />;
 }
 
 export default HomeContainer;
